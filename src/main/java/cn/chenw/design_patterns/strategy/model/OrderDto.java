@@ -1,6 +1,6 @@
-package ink.cwblog.strategy_demo.model;
+package cn.chenw.design_patterns.strategy.model;
 
-import ink.cwblog.strategy_demo.model.enummodel.SkuSourceEnum;
+import cn.chenw.design_patterns.strategy.model.enummodel.SkuSourceEnum;
 import lombok.Data;
 
 /**

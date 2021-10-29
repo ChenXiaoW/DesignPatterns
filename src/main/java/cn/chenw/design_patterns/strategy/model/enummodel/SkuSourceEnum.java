@@ -1,4 +1,4 @@
-package ink.cwblog.strategy_demo.model.enummodel;
+package cn.chenw.design_patterns.strategy.model.enummodel;
 
 /**
  * @author chenw

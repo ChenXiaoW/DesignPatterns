@@ -1,17 +1,16 @@
-package ink.cwblog.strategy_demo.demo3.strategy.context;
+package cn.chenw.design_patterns.strategy.service.context;
 
-import com.alibaba.fastjson.JSON;
-import ink.cwblog.strategy_demo.demo3.strategy.strategy.OrderStrategy;
-import ink.cwblog.strategy_demo.model.Order;
-import ink.cwblog.strategy_demo.model.OrderDto;
-import ink.cwblog.strategy_demo.model.enummodel.SkuSourceEnum;
+
+import cn.chenw.design_patterns.strategy.model.Order;
+import cn.chenw.design_patterns.strategy.model.OrderDto;
+import cn.chenw.design_patterns.strategy.model.enummodel.SkuSourceEnum;
+import cn.chenw.design_patterns.strategy.service.OrderStrategy;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 /**
@@ -21,15 +20,15 @@ import java.util.function.Function;
  * 订单策略执行器
  */
 @Component
-public class OrderContext3 {
+public class OrderContext {
 
-    @Resource(name = "JDOrder2")
+    @Resource(name = "JDOrder")
     private OrderStrategy jdOrderStratey;
 
-    @Resource(name = "MCOrder2")
+    @Resource(name = "MCOrder")
     private OrderStrategy mcOrderStratey;
 
-    @Resource(name = "ZLOrder2")
+    @Resource(name = "ZLOrder")
     private OrderStrategy zlOrderStratey;
     /**
      * Function<Order,String> Order是参数类型，String是返回值类型

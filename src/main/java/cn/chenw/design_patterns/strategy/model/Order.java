@@ -1,4 +1,4 @@
-package ink.cwblog.strategy_demo.model;
+package cn.chenw.design_patterns.strategy.model;
 
 import lombok.Data;
 

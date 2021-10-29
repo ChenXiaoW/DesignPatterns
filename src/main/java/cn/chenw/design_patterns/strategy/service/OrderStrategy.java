@@ -1,7 +1,7 @@
-package ink.cwblog.strategy_demo.demo3.strategy.strategy;
+package cn.chenw.design_patterns.strategy.service;
 
 
-import ink.cwblog.strategy_demo.model.Order;
+import cn.chenw.design_patterns.strategy.model.Order;
 
 /**
  * @author  chenw
